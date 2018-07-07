@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Totally Trivial Trivia!</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center"><h1 class="maintitle">Totally Trivial Trivia! Sports Edition!</h1></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4 ">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="start">Start</button>
+        </div>
+        <div class="col-lg-4 col-lg-offset-4 text-center">
+            <p id="time">Time Remaining:<span id="timer"></span></p>
+        </div>
+    </div>
+    <br>
+
+        <div class="form-group text-center">
+            <p>1. Where were the Utah Jazz originally located?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Chicago
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">New Orleans
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">New York
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Atlanta
+                </label>
+            </form>
+            <br>
+            
+            <p>2. Who was the first rookie QB in the Super Bowl era to throw 3 TD passes in a playoff game?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Dak Prescott
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Aaron Rodgers
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Ben Roethlisberger
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Tom Brady
+                </label>
+            </form>
+            <br>
+
+            <p>3. How many dimples does the average golf ball have?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">500
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">460
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">225
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">336
+                </label>
+            </form>
+            <br>
+            
+            <p>4. What player was drafted first overall in the 2016 NBA draft?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Brandon Ingram
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Ben Simmons
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Jaylen Brown
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">LeBron James
+                </label>
+            </form>
+            <br>
+            
+            <p>5. What MLB player holds the record for most Grand Slams in one inning?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Barry Bonds
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Ken Griffey Jr.
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Fernando Tatis
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Jeff Bagwell
+                </label>
+            </form>
+            <br>
+            
+            <p>6. Who holds the record for most consecutive PGA Tour wins?</p>
+            <form class="question">
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Arnold Palmer
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Jack Nicklaus
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="wrong">Ben Hogan
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="optradio" class="optradio" value="goodanswer">Byron Nelson
+                </label>
+            </form>
+            <br>
+        </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+            <button type="button" class="btn btn-primary btn-lg btn-block" id="done">DONE</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
